@@ -65,9 +65,9 @@ echo "ページ作成日時：".date("Y年m月d日")."-".date("H:i:s")."<br>";
 //require 'php/class.php';
 
 //★★DB接続
-$dbname="postgres";
-$usern="postgres";//接続ユーザ名
-$passw="korokoroyama";//ユーザパスワード
+$dbname="★★★";
+$usern="★★★";//接続ユーザ名
+$passw="★★★";//ユーザパスワード
 $conn = "host=localhost dbname=".$dbname." user=".$usern." password=".$passw;
 $link = pg_connect($conn);
 
